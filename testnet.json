@@ -1,6 +1,6 @@
 {
   "genesis_time": "2024-04-09T02:08:48.772774Z",
-  "chain_id": "ethermint_3182650945695-1",
+  "chain_id": "testnet",
   "initial_height": "1",
   "consensus_params": {
     "block": {
