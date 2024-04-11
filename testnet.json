@@ -176,7 +176,7 @@
     "evm": {
       "accounts": [],
       "params": {
-        "evm_denom": "alrz",
+        "evm_denom": "stBTC",
         "enable_create": true,
         "enable_call": true,
         "extra_eips": [],
