@@ -129,15 +129,15 @@
         "insert_headers_allow_list": ["lrz1h2eglam9jjqlrjz3dask54mr8xfk47cxx0kh5c"]
       },
       "base_btc_header": {
-        "header": "0020d73164f048289c277f94f7a967b20766dbadabe14e93b7de51bb0200000000000000f4108db93d6938aaff8205042056260f4f60eb7463dbe99f28cdd68cd0c6302f96243966e00662191ca9365f",
-        "hash": "0000000000000058d14e1c416ade4a50ce493206827179905c1cb298cc59b62d",
-        "height": "2812320",
-        "work": "43813521"
+        "header": "00e07f2c70e19f7e424cefdab0fa85b7b16db9ab8f25f55333a4acd7de01000000000000a8eea5e5341432c0b64f4e84c8494b7dc482293e812625438f71c5d1cbd91daeb3103266ffff001a50bd550c",
+        "hash": "00000000000000c11a8e3bd7b9e029ad4daa4367546bca61d3c7eb15ce100188",
+        "height": "2810304",
+        "work": "16777216"
       }
     },
     "btcstaking": {
       "params": {
-        "btc_receiving_addr": "tb1q9zkpszu0m06n42jcfw0jhtad4yndsedn4uuye2",
+        "btc_receiving_addr": "tb1p34dn57uzr2g5hyjfzms3yvwmfwexxu5mglw47cttummndvh74txq97kr5y",
         "btc_confirmations_depth": 3
       }
     },
