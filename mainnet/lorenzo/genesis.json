@@ -70,7 +70,7 @@
     "crisis": {
       "constant_fee": {
         "denom": "alrz",
-        "amount": "1000"
+        "amount": "10000000000000000000000"
       }
     },
     "distribution": {
@@ -156,7 +156,7 @@
         "min_deposit": [
           {
             "denom": "alrz",
-            "amount": "10000000"
+            "amount": "10000000000000000000"
           }
         ],
         "max_deposit_period": "172800s",
