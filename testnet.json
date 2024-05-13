@@ -111,7 +111,7 @@
     "btcstaking": {
       "params": {
         "btc_receiving_addr": "tb1p97g0dpmsm2fxkmkw9w7mpasmxprsye3k0v49qknwmclwxj78rfjqu6nacq",
-        "btc_confirmations_depth": 3
+        "btc_confirmations_depth": 1
       }
     },
     "capability": {
