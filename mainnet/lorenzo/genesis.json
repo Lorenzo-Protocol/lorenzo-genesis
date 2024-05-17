@@ -76,10 +76,10 @@
         "insert_headers_allow_list": []
       },
       "base_btc_header": {
-        "header": "",
-        "hash": "",
-        "height": "",
-        "work": ""
+        "header": "00e0ff274c1203a5b0b71f57ecb9531a3485ed0339c87cb742130200000000000000000062b1722003bc3159639f60e540d79fb62a3939a6df0f398fe7976608f78770d9beac3c669a620317a36e82cc",
+        "hash": "000000000000000000026b90d09b5e4fba615eadfc4ce2a19f6a68c9c18d4a2e",
+        "height": "842688",
+        "work": "83148355189239"
       }
     },
     "btcstaking": {
