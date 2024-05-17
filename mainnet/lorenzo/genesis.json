@@ -4,7 +4,7 @@
   "initial_height": "1",
   "consensus_params": {
     "block": {
-      "max_bytes": "22020096",
+      "max_bytes": "4194304",
       "max_gas": "40000000"
     },
     "evidence": {
@@ -31,7 +31,9 @@
         "sig_verify_cost_ed25519": "590",
         "sig_verify_cost_secp256k1": "1000"
       },
-      "accounts": []
+      "accounts": [
+
+      ]
     },
     "authz": {
       "authorization": []
@@ -41,9 +43,32 @@
         "send_enabled": [],
         "default_send_enabled": true
       },
-      "balances": [],
-      "supply": [],
-      "denom_metadata": [],
+      "balances": [
+
+      ],
+      "supply": [
+      ],
+      "denom_metadata": [
+        {
+          "description": "Native staking token of Lorenzo: LRZ (alrz)",
+          "base": "alrz",
+          "denom_units": [
+            {
+              "aliases": [],
+              "denom": "alrz",
+              "exponent": 0
+            },
+            {
+              "aliases": [],
+              "denom": "LRZ",
+              "exponent": 18
+            }
+          ],
+          "display": "LRZ",
+          "name": "LRZ",
+          "symbol": "LRZ"
+        }
+      ],
       "send_enabled": []
     },
     "btclightclient": {
@@ -51,15 +76,15 @@
         "insert_headers_allow_list": []
       },
       "base_btc_header": {
-        "header": "0100000000000000000000000000000000000000000000000000000000000000000000003ba3edfd7a7b12b27ac72c3e67768f617fc81bc3888a51323a9fb8aa4b1e5e4adae5494dffff001d1aa4ae18",
-        "hash": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
-        "height": "0",
-        "work": "4295032833"
+        "header": "",
+        "hash": "",
+        "height": "",
+        "work": ""
       }
     },
     "btcstaking": {
       "params": {
-        "btc_receiving_addr": "",
+        "btc_receiving_addr": [],
         "btc_confirmations_depth": 6
       }
     },
@@ -70,7 +95,7 @@
     "crisis": {
       "constant_fee": {
         "denom": "alrz",
-        "amount": "10000000000000000000000"
+        "amount": "1000000000000000000000000"
       }
     },
     "distribution": {
@@ -135,8 +160,8 @@
         "base_fee_change_denominator": 8,
         "elasticity_multiplier": 2,
         "enable_height": "0",
-        "base_fee": "2000000000",
-        "min_gas_price": "2000000000.000000000000000000",
+        "base_fee": "2000000",
+        "min_gas_price": "2000000",
         "min_gas_multiplier": "0.500000000000000000"
       },
       "block_gas": "0"
@@ -159,8 +184,8 @@
             "amount": "10000000000000000000"
           }
         ],
-        "max_deposit_period": "172800s",
-        "voting_period": "172800s",
+        "max_deposit_period": "432000s",
+        "voting_period": "432000s",
         "quorum": "0.334000000000000000",
         "threshold": "0.500000000000000000",
         "veto_threshold": "0.334000000000000000",
@@ -205,26 +230,26 @@
     },
     "mint": {
       "minter": {
-        "inflation": "0.130000000000000000",
+        "inflation": "0.080000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
         "mint_denom": "alrz",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.200000000000000000",
-        "inflation_min": "0.070000000000000000",
+        "inflation_rate_change": "1.000000000000000000",
+        "inflation_max": "0.100000000000000000",
+        "inflation_min": "0.010000000000000000",
         "goal_bonded": "0.670000000000000000",
-        "blocks_per_year": "6311520"
+        "blocks_per_year": "10519200"
       }
     },
     "params": null,
     "slashing": {
       "params": {
-        "signed_blocks_window": "100",
+        "signed_blocks_window": "10000",
         "min_signed_per_window": "0.500000000000000000",
         "downtime_jail_duration": "600s",
         "slash_fraction_double_sign": "0.050000000000000000",
-        "slash_fraction_downtime": "0.010000000000000000"
+        "slash_fraction_downtime": "0.0"
       },
       "signing_infos": [],
       "missed_blocks": []
@@ -236,7 +261,7 @@
         "max_entries": 7,
         "historical_entries": 10000,
         "bond_denom": "alrz",
-        "min_commission_rate": "0.000000000000000000"
+        "min_commission_rate": "0.050000000000000000"
       },
       "last_total_power": "0",
       "last_validator_powers": [],
