@@ -82,8 +82,13 @@
     },
     "btcstaking": {
       "params": {
-        "btc_receiving_addr": [],
-        "btc_confirmations_depth": 6
+        "receivers": [
+          {
+            "name": "sinohope1",
+            "addr": "tbc1pxpp82hc4t4flkyqtjdnzr3q72qh9st78gfge50vzlrjtp9c6yn4s5zq5vk"
+          }
+        ],
+        "btc_confirmations_depth": 3
       }
     },
     "capability": {
