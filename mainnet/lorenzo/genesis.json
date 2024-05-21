@@ -94,7 +94,9 @@
     },
     "btclightclient": {
       "params": {
-        "insert_headers_allow_list": []
+        "insert_headers_allow_list": [
+          "lrz1tputxpuy7ad5hq6drc3fnhd3df5p2xlg267a2w"
+        ]
       },
       "base_btc_header": {
         "header": "00e0ff274c1203a5b0b71f57ecb9531a3485ed0339c87cb742130200000000000000000062b1722003bc3159639f60e540d79fb62a3939a6df0f398fe7976608f78770d9beac3c669a620317a36e82cc",
