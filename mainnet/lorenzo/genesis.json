@@ -313,7 +313,10 @@
     },
     "txfee": {
       "params": {
-        "non_fee_msgs": []
+        "non_fee_msgs": [
+          "/lorenzo.btcstaking.v1.MsgCreateBTCStaking",
+          "/lorenzo.btclightclient.v1.MsgInsertHeaders"
+        ]
       }
     },
     "upgrade": {},
