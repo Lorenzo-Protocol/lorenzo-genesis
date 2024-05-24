@@ -91,22 +91,24 @@
       "denom_metadata": [
         {
           "description": "Native staking token of Lorenzo: LRZ (alrz)",
-          "base": "alrz",
           "denom_units": [
             {
-              "aliases": [],
               "denom": "alrz",
-              "exponent": 0
+              "exponent": 0,
+              "aliases": []
             },
             {
-              "aliases": [],
               "denom": "LRZ",
-              "exponent": 18
+              "exponent": 18,
+              "aliases": []
             }
           ],
+          "base": "alrz",
           "display": "LRZ",
           "name": "LRZ",
-          "symbol": "LRZ"
+          "symbol": "LRZ",
+          "uri": "",
+          "uri_hash": ""
         }
       ],
       "send_enabled": []
