@@ -1,6 +1,6 @@
 {
   "genesis_time": "2024-05-07T02:18:28.602151961Z",
-  "chain_id": "lorenzod_8329-1",
+  "chain_id": "lorenzo_8329-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
