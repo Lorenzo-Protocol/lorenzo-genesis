@@ -129,11 +129,63 @@
         "receivers": [
           {
             "name": "sinohope1",
-            "addr": "bc1pzd6luyardlle9f7lul2y8fl72c22p6vxspc4k4g4gzgjf8975s0sr042yt"
+            "addr": "bc1pzd6luyardlle9f7lul2y8fl72c22p6vxspc4k4g4gzgjf8975s0sr042yt",
+            "eth_addr": "0xC9745c97a9146c6060B08f940C03110A85509031"
           },
           {
             "name": "sinohope2",
-            "addr": "bc1p7agkadaau66jtva9n8k5pg3lsctuyqur8a2l5y9hzwqkh5nlmd0skuhws3"
+            "addr": "bc1p7agkadaau66jtva9n8k5pg3lsctuyqur8a2l5y9hzwqkh5nlmd0skuhws3",
+            "eth_addr": "0xC9745c97a9146c6060B08f940C03110A85509031"
+          },
+          {
+            "name": "lorenzo1",
+            "addr": "bc1qaf6laj9m7jteztyz4lulrtcjtpusfcfnd7r7xn",
+            "eth_addr": ""
+          },
+          {
+            "name": "lorenzo2",
+            "addr": "bc1qf6cj2z2e2mzuvfrl80vgt53k7jc2vf36ckahgy",
+            "eth_addr": ""
+          },
+          {
+            "name": "lorenzo3",
+            "addr": "bc1q5hc68n6krnzgzswf7rknha2aqxzrzup4vlhce8",
+            "eth_addr": ""
+          },
+          {
+            "name": "lorenzo4",
+            "addr": "bc1qpxpmr3zdjulqnwa3jdvm83tpaek6dv3kc75ms7",
+            "eth_addr": ""
+          },
+          {
+            "name": "lorenzo5",
+            "addr": "bc1qaml9d9mqgfhsfuaa2ymutdl4psj8c2undx9n72",
+            "eth_addr": ""
+          },
+          {
+            "name": "lorenzo6",
+            "addr": "bc1qutgngqyrflxrfmk9k28ucvq0s2v8a43nwfwv02",
+            "eth_addr": ""
+          },
+          {
+            "name": "lorenzo7",
+            "addr": "bc1qrx3fpr5j6sprxett45c2kl9p4pajyxep0mapfd",
+            "eth_addr": ""
+          },
+          {
+            "name": "lorenzo8",
+            "addr": "bc1q00t2ntm46c2nfvcer6ukj6npaxjurujthse4qq",
+            "eth_addr": ""
+          },
+          {
+            "name": "lorenzo9",
+            "addr": "bc1q3pzhncle68gct6me08kn5kf9awkevt6ettwrmg",
+            "eth_addr": ""
+          },
+          {
+            "name": "lorenzo10",
+            "addr": "bc1qw6cvwx8ajprmp2lzkhrsps2qx4k9r2pj4xj98x",
+            "eth_addr": ""
           }
         ],
         "btc_confirmations_depth": 3
