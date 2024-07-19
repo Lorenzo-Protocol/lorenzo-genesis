@@ -127,7 +127,8 @@
             "eth_addr": ""
           }
         ],
-        "btc_confirmations_depth": 1
+        "btc_confirmations_depth": 1,
+        "txout_dust_amount" : 546
       }
     },
     "capability": {
