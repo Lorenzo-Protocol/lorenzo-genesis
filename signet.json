@@ -127,7 +127,8 @@
             "eth_addr": ""
           }
         ],
-        "btc_confirmations_depth": 1
+        "btc_confirmations_depth": 1,
+        "bridge_addr": "0xb7C0817Dd23DE89E4204502dd2C2EF7F57d3A3B8"
       }
     },
     "capability": {
