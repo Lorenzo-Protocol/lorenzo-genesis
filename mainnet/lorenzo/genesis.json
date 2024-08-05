@@ -199,7 +199,8 @@
           }
         ],
         "btc_confirmations_depth": 3,
-        "bridge_addr": "0x964e289Ffb1D0447eA4270FCD6b974A7aD588751"
+        "bridge_addr": "0x964e289Ffb1D0447eA4270FCD6b974A7aD588751",
+        "txout_dust_amount": 546
       }
     },
     "capability": {
