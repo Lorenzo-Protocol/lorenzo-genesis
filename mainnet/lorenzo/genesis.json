@@ -199,6 +199,9 @@
           }
         ],
         "btc_confirmations_depth": 3,
+        "minter_allow_list": [
+          "lrz1xa40j022h2rcmnte47gyjg8688grln94pp84lc"
+        ],
         "bridge_addr": "0x964e289Ffb1D0447eA4270FCD6b974A7aD588751",
         "txout_dust_amount": 546
       }

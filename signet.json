@@ -128,6 +128,7 @@
           }
         ],
         "btc_confirmations_depth": 1,
+        "minter_allow_list": [],
         "bridge_addr": "0xb7C0817Dd23DE89E4204502dd2C2EF7F57d3A3B8",
         "txout_dust_amount" : 546
       }
